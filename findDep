@@ -1,4 +1,4 @@
-echo "Deprecated and Removed Functions List"  >> deprecated.txt
+echo "Deprecated and Removed Functions List"  > deprecated.txt
 echo "============================================"  >> deprecated.txt
 echo "Looking for set-socket-blocking Occurances"
 echo "Function set-socket-blocking Occurances"  >> deprecated.txt

@@ -4,4 +4,10 @@ This requires grep and will search ONE TERM at a time a directory recursively.  
 
 Finally it will run cat deprecated.txt |more at the end so you can look through it and ensure it ran.  Just ^c out of it or comment out the last line if this annoys you.
 
+If you want to use it, just open the file, copy, paste and run.
+
+If you want to add or improve it, fork it.  If you find removed or deprecated functions not found, just send me the function.
+
+No warrenty is expressed or implied.  Use at your own risk.  
+
 Enjoy

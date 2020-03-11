@@ -1,0 +1,438 @@
+echo "Deprecated and Removed Functions List"  >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for set-socket-blocking Occurances"
+echo "Function set-socket-blocking Occurances"  >> deprecated.txt
+grep " set-socket-blocking" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocisavelob Occurances"  
+echo "Function ocisavelob Occurances"  >> deprecated.txt
+grep " ocisavelob" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ociloadlob Occurances" 
+echo "Function ociloadlob Occurances"  >> deprecated.txt
+grep " ociloadlob" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for import-request-variables Occurances"
+echo "Function import-request-variables Occurances"  >> deprecated.txt
+grep " import-request-variables" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for define-syslog-variables Occurances"
+echo "Function define-syslog-variables Occurances"  >> deprecated.txt
+grep " define-syslog-variables" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocibindbyname Occurances"
+echo "Function ocibindbyname Occurances"  >> deprecated.txt
+grep " ocibindbyname" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocinlogon Occurances"
+echo "Function ocinlogon Occurances"  >> deprecated.txt
+grep " ocinlogon" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocifreestatement Occurances"
+echo "Function ocifreestatement Occurances"  >> deprecated.txt
+grep " ocifreestatement" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocirollback Occurances"  
+echo "Function ocirollback Occurances"  >> deprecated.txt
+grep " ocirollback" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for split Occurances"  
+echo "Function split Occurances"  >> deprecated.txt
+grep " split" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocifreecollection Occurances"
+echo "Function ocifreecollection Occurances"  >> deprecated.txt
+grep " ocifreecollection" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for session-unregister Occurances"
+echo "Function session-unregister Occurances"  >> deprecated.txt
+grep " session-unregister" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicolumnsize Occurances"
+echo "Function ocicolumnsize Occurances"  >> deprecated.txt
+grep " ocicolumnsize" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ociplogon Occurances"
+echo "Function ociplogon Occurances"  >> deprecated.txt
+grep " ociplogon" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ociresult Occurances"
+echo "Function ociresult Occurances"  >> deprecated.txt
+grep " ociresult" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli-bind-param Occurances"
+echo "Function mysqli-bind-param Occurances"  >> deprecated.txt
+grep " mysqli-bind-param" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli-client-encoding Occurances"
+echo "Function mysqli-client-encoding Occurances"  >> deprecated.txt
+grep " mysqli-client-encoding" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli-param-count Occurances"
+echo "Function mysqli-param-count Occurances"  >> deprecated.txt
+grep " mysqli-param-count" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocirowcount Occurances"
+echo "Function ocirowcount Occurances"  >> deprecated.txt
+grep " ocirowcount" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for eregi Occurances"
+echo "Function eregi Occurances"  >> deprecated.txt
+grep " eregi" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for getpoolsize Occurances"
+echo "Function getpoolsize Occurances"  >> deprecated.txt
+grep " getpoolsize" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli-send-long-data Occurances"
+echo "Function mysqli-send-long-data Occurances"  >> deprecated.txt
+grep " mysqli-send-long-data" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicolumnname Occurances"
+echo "Function ocicolumnname Occurances"  >> deprecated.txt
+grep " ocicolumnname" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicollgetelem Occurances"
+echo "Function ocicollgetelem Occurances"  >> deprecated.txt
+grep " ocicollgetelem" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicolltrim Occurances"
+echo "Function ocicolltrim Occurances"  >> deprecated.txt
+grep " ocicolltrim" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicollappend Occurances"
+echo "Function ocicollappend Occurances"  >> deprecated.txt
+grep " ocicollappend" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli-bind-result Occurances"
+echo "Function mysqli-bind-result Occurances"  >> deprecated.txt
+grep " mysqli-bind-result" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for zend-logo-guid Occurances"
+echo "Function zend-logo-guid Occurances"  >> deprecated.txt
+grep " zend-logo-guid" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for php-logo-guid Occurances"
+echo "Function php-logo-guid Occurances"  >> deprecated.txt
+grep " php-logo-guid" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicolumnscale Occurances"
+echo "Function ocicolumnscale Occurances"  >> deprecated.txt
+grep " ocicolumnscale" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocistatementtype Occurances"
+echo "Function ocistatementtype Occurances"  >> deprecated.txt
+grep " ocistatementtype" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocinumcols Occurances"
+echo "Function ocinumcols Occurances"  >> deprecated.txt
+grep " ocinumcols" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ereg Occurances"
+echo "Function ereg Occurances"  >> deprecated.txt
+grep " ereg" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocifreecursor Occurances"
+echo "Function ocifreecursor Occurances"  >> deprecated.txt
+grep " ocifreecursor" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocifetchstatement Occurances"
+echo "Function ocifetchstatement Occurances"  >> deprecated.txt
+grep " ocifetchstatement" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicollassign Occurances"
+echo "Function ocicollassign Occurances"  >> deprecated.txt
+grep " ocicollassign" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocinewcollection Occurances"
+echo "Function ocinewcollection Occurances"  >> deprecated.txt
+grep " ocinewcollection" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocifreedesc Occurances"
+echo "Function ocifreedesc Occurances"  >> deprecated.txt
+grep " ocifreedesc" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocinewdescriptor Occurances"
+echo "Function ocinewdescriptor Occurances"  >> deprecated.txt
+grep " ocinewdescriptor" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli-get-metadata Occurances"
+echo "Function mysqli-get-metadata Occurances"  >> deprecated.txt
+grep " mysqli-get-metadata" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicolumntype Occurances"
+echo "Function ocicolumntype Occurances"  >> deprecated.txt
+grep " ocicolumntype" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for settimezoneid Occurances"
+echo "Function settimezoneid Occurances"  >> deprecated.txt
+grep " settimezoneid" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicloselob Occurances"
+echo "Function ocicloselob Occurances"  >> deprecated.txt
+grep " ocicloselob" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicollsize Occurances"
+echo "Function ocicollsize Occurances"  >> deprecated.txt
+grep " ocicollsize" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocierror Occurances"
+echo "Function ocierror Occurances"  >> deprecated.txt
+grep " ocierror" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicolumntyperaw Occurances"
+echo "Function ocicolumntyperaw Occurances"  >> deprecated.txt
+grep " ocicolumntyperaw" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocisetprefetch Occurances"
+echo "Function ocisetprefetch Occurances"  >> deprecated.txt
+grep " ocisetprefetch" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ociexecute Occurances"
+echo "Function ociexecute Occurances"  >> deprecated.txt
+grep " ociexecute" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocidefinebyname Occurances"
+echo "Function ocidefinebyname Occurances"  >> deprecated.txt
+grep " ocidefinebyname" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocisavelobfile Occurances"
+echo "Function ocisavelobfile Occurances"  >> deprecated.txt
+grep " ocisavelobfile" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicolumnprecision Occurances"
+echo "Function ocicolumnprecision Occurances"  >> deprecated.txt
+grep " ocicolumnprecision" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicollassignelem Occurances"
+echo "Function ocicollassignelem Occurances"  >> deprecated.txt
+grep " ocicollassignelem" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for setpoolsize Occurances"
+echo "Function setpoolsize Occurances"  >> deprecated.txt
+grep " setpoolsize" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocifetch Occurances"
+echo "Function ocifetch Occurances"  >> deprecated.txt
+grep " ocifetch" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mcrypt-cfb Occurances"
+echo "Function mcrypt-cfb Occurances"  >> deprecated.txt
+grep " mcrypt-cfb" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for clone Occurances"
+echo "Function clone Occurances"  >> deprecated.txt
+grep " clone" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicolumnisnull Occurances"
+echo "Function ocicolumnisnull Occurances"  >> deprecated.txt
+grep " ocicolumnisnull" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for session-register Occurances"
+echo "Function session-register Occurances"  >> deprecated.txt
+grep " session-register" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for spliti Occurances"
+echo "Function spliti Occurances"  >> deprecated.txt
+grep " spliti" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for pooldebug Occurances"
+echo "Function pooldebug Occurances"  >> deprecated.txt
+grep " pooldebug" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for session-is-registered"
+echo "Function session-is-registered Occurances"  >> deprecated.txt
+grep " session-is-registered" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ociwritelobtofile Occurances"
+echo "Function ociwritelobtofile Occurances"  >> deprecated.txt
+grep " ociwritelobtofile" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicommit Occurances"
+echo "Function ocicommit Occurances"  >> deprecated.txt
+grep " ocicommit" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli-fetch Occurances"
+echo "Function mysqli-fetch Occurances"  >> deprecated.txt
+grep " mysqli-fetch" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicollmax Occurances"
+echo "Function ocicollmax Occurances"  >> deprecated.txt
+grep " ocicollmax" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocinewcursor Occurances"
+echo "Function ocinewcursor Occurances"  >> deprecated.txt
+grep " ocinewcursor" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for set-magic-quotes-runtime Occurances"
+echo "Function set-magic-quotes-runtime Occurances"  >> deprecated.txt
+grep " set-magic-quotes-runtime" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for set-get_magic_quotes_gpc Occurances"
+echo "Function set-get_magic_quotes_gpc Occurances"  >> deprecated.txt
+grep " get_magic_quotes_gpc" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for set-get_magic_quotes_runtime Occurances"
+echo "Function set-get_magic_quotes_runtime Occurances"  >> deprecated.txt
+grep " get_magic_quotes_runtime" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for get-get_magic_quotes_runtime Occurances"
+echo "Function get-get_magic_quotes_runtime Occurances"  >> deprecated.txt
+grep " set_magic_quotes_runtime" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for eregi-replace Occurances"
+echo "Function eregi-replace Occurances"  >> deprecated.txt
+grep " eregi-replace" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mcrypt-ofb Occurances"
+echo "Function mcrypt-ofb Occurances"  >> deprecated.txt
+grep " mcrypt-ofb" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ociinternaldebug Occurances"
+echo "Function ociinternaldebug Occurances"  >> deprecated.txt
+grep " ociinternaldebug" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ocicancel Occurances"
+echo "Function ocicancel Occurances"  >> deprecated.txt
+grep " ocicancel" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for zlib Occurances"
+echo "Function zlib Occurances"  >> deprecated.txt
+grep " zlib" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysql_create_db Occurances"
+echo "Function mysql_create_db Occurances"  >> deprecated.txt
+grep " mysql_create_db" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysql_drop_db Occurances"
+echo "Function mysql_drop_db Occurances"  >> deprecated.txt
+grep " mysql_drop_db" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysql_escape_string Occurances"
+echo "Function mysql_escape_string Occurances"  >> deprecated.txt
+grep " mysql_escape_string" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for gpc_order_string Occurances"
+echo "Function gpc_order_string Occurances"  >> deprecated.txt
+grep " gpc_order" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mcrypt_encrypt Occurances"
+echo "Function mcrypt_encrypt Occurances"  >> deprecated.txt
+grep " mcrypt_encrypt" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mcrypt_decrypt Occurances"
+echo "Function mcrypt_decrypt Occurances"  >> deprecated.txt
+grep " mcrypt_decrypt" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for datefmt_set_timezone_id Occurances"
+echo "Function datefmt_set_timezone_id Occurances"  >> deprecated.txt
+grep " datefmt_set_timezone_id" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysql_connect Occurances"
+echo "Function mysql_connect Occurances"  >> deprecated.txt
+grep " mysql_connect" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysql_pconnect Occurances"
+echo "Function mysql_pconnect Occurances"  >> deprecated.txt
+grep " mysql_pconnect" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for session_register Occurances"
+echo "Function session_register Occurances"  >> deprecated.txt
+grep " session_register" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for session_is_registered Occurances"
+echo "Function session_is_registered Occurances"  >> deprecated.txt
+grep " session_is_registered" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for session_unregistered Occurances"
+echo "Function session_unregistered Occurances"  >> deprecated.txt
+grep " session_is_registered" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for define_syslog_variables Occurances"
+echo "Function define_syslog_variables Occurances"  >> deprecated.txt
+grep " define_syslog_variables" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for password_hash Occurances"
+echo "Function password_hash Occurances"  >> deprecated.txt
+grep " password_hash" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for ldap_sort Occurances"
+echo "Function ldap_sort Occurances"  >> deprecated.txt
+grep " ldap_sort" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for create_function Occurances"
+echo "Function create_function Occurances"  >> deprecated.txt
+grep " create_function" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for parse_str Occurances"
+echo "Function parse_str Occurances"  >> deprecated.txt
+grep " parse_str" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli_bind_param Occurances"
+echo "Function mysqli_bind_param Occurances"  >> deprecated.txt
+grep " mysqli_bind_param" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli_bind_result Occurances"
+echo "Function mysqli_bind_result Occurances"  >> deprecated.txt
+grep " mysqli_bind_result" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli_client_encoding Occurances"
+echo "Function mysqli_client_encoding Occurances"  >> deprecated.txt
+grep " mysqli_client_encoding" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli_fetch Occurances"
+echo "Function mysqli_fetch Occurances"  >> deprecated.txt
+grep " mysqli_fetch" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli_param_count Occurances"
+echo "Function mysqli_param_count Occurances"  >> deprecated.txt
+grep " mysqli_param_count" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli_get_metadata Occurances"
+echo "Function mysqli_get_metadata Occurances"  >> deprecated.txt
+grep " mysqli_get_metadata" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli_send_long_data Occurances"
+echo "Function mysqli_send_long_data Occurances"  >> deprecated.txt
+grep " mysqli_send_long_data" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli::client_encoding Occurances"
+echo "Function mysqli::client_encoding Occurances"  >> deprecated.txt
+grep " mysqli::client_encoding" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mysqli_stmt::stmt Occurances"
+echo "Function mysqli_stmt::stmt Occurances"  >> deprecated.txt
+grep " mysqli_stmt::stmt" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mcrypt_generic_end Occurances"
+echo "Function mcrypt_generic_end"  >> deprecated.txt
+grep " mcrypt_generic_end" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mcrypt_ecb Occurances"
+echo "Function mcrypt_ecb Occurances"  >> deprecated.txt
+grep " mcrypt_ecb" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mcrypt_cbc Occurances"
+echo "Function mcrypt_cbc Occurances"  >> deprecated.txt
+grep " mcrypt_cbc" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mcrypt_cfb Occurances"
+echo "Function mcrypt_cfb Occurances"  >> deprecated.txt
+grep " mcrypt_cfb" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for mcrypt_ofb Occurances"
+echo "Function mcrypt_ofb Occurances"  >> deprecated.txt
+grep " mcrypt_ofb" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for datefmt_set_timezone_id Occurances"
+echo "Function datefmt_set_timezone_id Occurances"  >> deprecated.txt
+grep " datefmt_set_timezone_id" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "Looking for IntlDateFormatter::setTimeZoneID Occurances"
+echo "Function IntlDateFormatter::setTimeZoneID Occurances"  >> deprecated.txt
+grep " IntlDateFormatter::setTimeZoneID" -R --include=*.php >> deprecated.txt
+echo "============================================"  >> deprecated.txt
+echo "end" >> deprecated.txt
+echo "end"
+echo "All Occurances stored in deprecated.txt in this directory"
+cat deprecated.txt |more
